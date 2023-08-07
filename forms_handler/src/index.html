@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- форма1  -->
+    <form action="" class="forms" id="form1">
+        <h2>1 forms</h2>
+
+        <div class="label_block">
+            <label>Имя</label>
+            <input type="text" name="name">
+        </div>
+
+        <div class="label_block">
+            <label>Фамилия</label>
+            <input type="text" name="surname">
+        </div>
+
+        <div class="label_block">
+            <label>Возраст</label>
+            <input type="text" name="age">
+        </div>
+        <button type="submit">
+            Отправить
+        </button>
+        <div class="answer hide">данные отправлены</div>
+    </form>
+
+    <!-- форма2  -->
+    <form action="" class="forms" id="form2">
+        <h2>2 forms</h2>
+        <div class="label_block">
+            <label>Увлечения</label>
+            <input type="text" name="hobbies">
+        </div>
+
+        <div class="label_block">
+            <label>Цвет</label>
+            <select name="colors">
+                <option>Красный</option>
+                <option>Зеленый</option>
+                <option>Синий</option>
+            </select>
+        </div>
+
+        <div class="label_block">
+            <label>Выбери цифру</label>
+            <select name="ages">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+            </select>
+        </div>
+
+        <button type="submit">
+            Отправить
+        </button>
+        <div class="answer hide">данные отправлены</div>
+    </form>
+   <!-- ПРИ ДОБАВЛЕНИИ В ФОРМЫ НОВЫХ input полей или добавлении новых ФОРМ,
+    ДОБАВИТЬ В МАССИВ << controls в index.js >> type полей или новый объект формы 1 -->
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.label_block {
+  height: 30px;
+  margin: 10px auto;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.forms {
+  margin: 50px auto;
+  width: 350px;
+  padding: 20px;
+  border: 2px double orangered;
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+button {
+  border-radius: 5px;
+  background: orangered;
+  width: 100px;
+  height: 30px;
+  display: block;
+  margin: 20px auto 0 auto;
+}
+.answer{
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+.hide{
+    display: none;
+}
